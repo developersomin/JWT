@@ -8,6 +8,7 @@ import org.springframework.web.filter.CorsFilter;
 
 @Configuration
 public class CorsConfig {
+// 허가된 사이트나 클라이언트의 요청인가 확인 하는 필터
 
     @Bean
     public CorsFilter corsFilter() {
